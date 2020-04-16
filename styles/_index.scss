@@ -1,0 +1,25 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 2.8rem;
+    background: linear-gradient(to bottom, #787FA0, #708EC2, #DE8997, #FFC5BA, #F2DCD9);
+    height: 100vh;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+.wrapper {
+    max-width: 1800px;
+    margin: 100px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
