@@ -5,21 +5,56 @@ html {
 body {
     font-size: 2.8rem;
     background: linear-gradient(to bottom, #787FA0, #708EC2, #DE8997, #FFC5BA, #F2DCD9);
-    height: 100vh;
+    height: 100%;
+    color: #DCDCDC;
+    text-shadow: 3px 3px 3px #000;
+
 }
 
 h1 {
     font-size: 5rem;
 }
 
-.wrapper {
-    max-width: 1800px;
-    margin: 100px;
-}
+// .wrapper {
+//     width: 80%;
+//     max-width: 1800px;
+//     margin: 100px;
+// }
 
 section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+
+.banner {
+    border: 5px solid #DCDCDC;
+    box-shadow: 0 0 0 2px #000;
+    border-radius: 10px;
+    padding: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    font-size: 3.5rem;
+    padding: 20px;
+}
+
+a {
+    color: inherit;
+}
+
