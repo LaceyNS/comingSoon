@@ -243,19 +243,17 @@ body {
   font-size: 2.8rem;
   background: -webkit-gradient(linear, left top, left bottom, from(#787FA0), color-stop(#708EC2), color-stop(#DE8997), color-stop(#FFC5BA), to(#F2DCD9));
   background: linear-gradient(to bottom, #787FA0, #708EC2, #DE8997, #FFC5BA, #F2DCD9);
-  height: 100vh;
+  height: 100%;
+  color: #DCDCDC;
+  text-shadow: 3px 3px 3px #000;
 }
 
 h1 {
   font-size: 5rem;
 }
 
-.wrapper {
-  max-width: 1800px;
-  margin: 100px;
-}
-
 section {
+  height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -269,5 +267,53 @@ section {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.banner {
+  border: 5px solid #DCDCDC;
+  -webkit-box-shadow: 0 0 0 2px #000;
+          box-shadow: 0 0 0 2px #000;
+  border-radius: 10px;
+  padding: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  font-size: 3.5rem;
+  padding: 20px;
+}
+
+a {
+  color: inherit;
 }
 /*# sourceMappingURL=styles.css.map */
