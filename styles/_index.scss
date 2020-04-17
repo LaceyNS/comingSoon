@@ -7,12 +7,13 @@ body {
     background: linear-gradient(to bottom, #787FA0, #708EC2, #DE8997, #FFC5BA, #F2DCD9);
     height: 100%;
     color: #DCDCDC;
-    text-shadow: 3px 3px 3px #000;
+    text-shadow: 3px 3px 3px #696969;
 
 }
 
 h1 {
-    font-size: 5rem;
+    font-size: 7rem;
+    letter-spacing: 3.5px;
 }
 
 // .wrapper {
@@ -31,14 +32,22 @@ section {
 
 .banner {
     border: 5px solid #DCDCDC;
-    box-shadow: 0 0 0 2px #000;
+    box-shadow: 0 0 0 2px #778899;
     border-radius: 10px;
     padding: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
+
+h3 {
+    position: absolute;
+    left: 50px;
+    bottom: 150px;
+}
+
 
 ul {
     display: flex;
@@ -47,6 +56,7 @@ ul {
     align-items: center;
     list-style-type: none;
     padding: 0;
+    margin-top: 75px;
 }
 
 li {
@@ -56,5 +66,9 @@ li {
 
 a {
     color: inherit;
+    :hover,
+    :focus {
+        transform: scale(1.5);
+    }
 }
 
