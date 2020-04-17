@@ -1,0 +1,54 @@
+@media (max-width: 760px) {
+    body {
+        font-size: 2rem;
+    }
+
+    h1{ 
+        font-size: 5rem;
+    }
+    section {
+        margin: 50px;
+    }
+
+    h3 {
+        top: 250px;
+    }
+
+    ul {
+        flex-direction: column;
+    }
+
+    a {
+        display: block;
+    }
+}
+
+@media (max-width: 550px) {
+    body {
+        font-size: 1.6rem;
+    }
+    
+    h1 {
+        font-size: 3.5rem;
+    }
+
+    .banner {
+        padding: 25px;
+    }
+
+    h3{
+        top: 180px;
+        left: 25px;
+    }
+}
+
+@media (max-width: 435px) {
+    section {
+        margin: 15px;
+    }
+
+    h1 {
+        font-size: 2.8rem;
+        
+    }
+}
