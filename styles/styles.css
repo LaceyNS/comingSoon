@@ -245,7 +245,8 @@ body {
   background: linear-gradient(to bottom, #787FA0, #708EC2, #DE8997, #FFC5BA, #F2DCD9);
   height: 100%;
   color: #DCDCDC;
-  text-shadow: 3px 3px 3px #696969;
+  text-shadow: 3px 3px 3px #302f2f;
+  font-family: 'Playfair Display', serif;
 }
 
 h1 {
